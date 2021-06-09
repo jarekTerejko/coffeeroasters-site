@@ -5,5 +5,6 @@ export const HeadingSmall = styled.h3`
   font-weight: var(--weight-bold);
   color: ${(props) => (props.light ? "var(--lightCream)" : "")};
   margin-bottom: ${(props) => (props.collectionSection ? "3rem" : "")};
+  margin-bottom: ${(props) => (props.whyChooseUsCard ? "3rem" : "")};
   font-size: 2.4rem;
 `;
