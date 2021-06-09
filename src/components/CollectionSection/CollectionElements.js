@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const CollectionWrapper = styled.section`
   margin-bottom: 20rem;
 `;
+
 export const CollectionHeadingLarge = styled.h2`
   font-family: var(--serif);
   background-image: linear-gradient(var(--grey), var(--lightCream));
@@ -18,6 +19,9 @@ export const CollectionHeadingLarge = styled.h2`
   position: relative;
   z-index: -1;
 
+  @media screen and (min-width: 1440px) {
+    font-size: 14.4rem;
+  }
   @media screen and (max-width: 768px) {
     font-size: 13vw;
   }
@@ -25,6 +29,7 @@ export const CollectionHeadingLarge = styled.h2`
     font-size: 4.6rem;
   }
 `;
+
 export const CollectionCardsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -60,6 +65,7 @@ export const CollectionCard = styled.div`
     gap: 20px;
   }
 `;
+
 export const CollectionCardImgWrapper = styled.div`
   display: flex;
   align-items: center;
@@ -96,4 +102,5 @@ export const CollectionCardTextWrapper = styled.div`
     padding: 0 2rem;
   }
 `;
+
 export const CollectionCardDesc = styled.p``;
