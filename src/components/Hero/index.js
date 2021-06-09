@@ -1,24 +1,23 @@
 import { ContainerElement } from "../Container/ContainerElement";
 import { HeroInnerWrapper, HeroWrapper } from "./HeroELements";
-import HeroBgD from "../../assets/home/desktop/image-hero-coffeepress.jpg";
 import { HeadingPrimary } from "../HeadingPrimary/HeadingPrimaryElement";
 import { DescriptionText } from "../DescriptionText/DescriptionTextElement";
 import { ButtonPrimaryLinkR } from "../ButtonPrimary/ButtonPrimaryElement";
+
+import { homeHero } from "../../data";
 
 const Hero = () => {
   return (
     <HeroWrapper>
       <ContainerElement wider>
-        <HeroInnerWrapper HeroBgD={HeroBgD}>
+        <HeroInnerWrapper
+          HeroBgD={homeHero[0].imageD}
+          HeroBgT={homeHero[0].imageT}
+          HeroBgM={homeHero[0].imageM}
+        >
           <ContainerElement>
-            <HeadingPrimary homepageHero>
-              Great Coffee made simple.
-            </HeadingPrimary>
-            <DescriptionText light>
-              Start your mornings with the world’s best coffees. Try our
-              expertly curated artisan coffees from our best roasters delivered
-              directly to your door, at your schedule.
-            </DescriptionText>
+            <HeadingPrimary homepageHero>{homeHero[0].title}</HeadingPrimary>
+            <DescriptionText light>{homeHero[0].desc}</DescriptionText>
             <ButtonPrimaryLinkR to="/create-your-plan">
               Create your plan
             </ButtonPrimaryLinkR>
