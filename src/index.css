@@ -51,3 +51,9 @@ img {
   display: block;
   max-width: 100%;
 }
+
+@media screen and (max-width: 375px) {
+  .logo {
+    max-width: 16.4rem;
+  }
+}

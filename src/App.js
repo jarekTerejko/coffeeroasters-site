@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Route, Switch } from "react-router";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 };
