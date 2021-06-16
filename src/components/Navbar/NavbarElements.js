@@ -43,7 +43,7 @@ export const NavbarMenuBtn = styled.button`
   display: none;
 
   @media screen and (max-width: 768px) {
-    transform: translateX(6px);
+    transform: translateX(12px);
     display: flex;
   }
 `;
@@ -81,6 +81,7 @@ export const NavbarNavLinkR = styled(NavLink)`
   text-transform: uppercase;
   font-weight: var(--weight-semiBold);
   color: var(--darkBlue);
+  color: ${(props) => (props.$footerLink ? "var(--lightCream)" : "")};
   transition: color var(--transition);
 
   &:hover {

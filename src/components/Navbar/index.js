@@ -51,7 +51,7 @@ const Navbar = () => {
       <ContainerElement>
         <NavbarInnerWrapper $scrolledNav={scrolledNav}>
           <NavbarSiteLinkR to="/" $isOpen={isOpen} onClick={closeMenu}>
-            <ImageEl src={Logo} alt="Logo" />
+            <ImageEl className="logo" src={Logo} alt="Logo" />
           </NavbarSiteLinkR>
           <NavbarMenuBtn onClick={handleMenu}>
             <ImageEl
@@ -74,7 +74,7 @@ const Navbar = () => {
             <NavbarNavItem>
               <NavbarNavLinkR
                 $scrolledNav={scrolledNav}
-                to="/portfolio"
+                to="/about-us"
                 $isOpen={isOpen}
                 onClick={closeMenu}
               >
@@ -84,7 +84,7 @@ const Navbar = () => {
             <NavbarNavItem>
               <NavbarNavLinkR
                 $scrolledNav={scrolledNav}
-                to="/contact"
+                to="/create-your-plan"
                 $isOpen={isOpen}
                 onClick={closeMenu}
               >
