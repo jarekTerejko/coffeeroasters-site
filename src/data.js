@@ -1,7 +1,9 @@
 import HomeHeroBgD from "./assets/home/desktop/image-hero-coffeepress.jpg";
 import HomeHeroBgT from "./assets/home/tablet/image-hero-coffeepress.jpg";
 import HomeHeroBgM from "./assets/home/mobile/image-hero-coffeepress.jpg";
-
+import PagesHeroBgD from "./assets/about/desktop/image-hero-whitecup.jpg";
+import PagesHeroBgT from "./assets/about/tablet/image-hero-whitecup.jpg";
+import PagesHeroBgM from "./assets/about/mobile/image-hero-whitecup.jpg";
 import granEspressoImg from "./assets/home/desktop/image-gran-espresso.png";
 import planaltoImg from "./assets/home/desktop/image-planalto.png";
 import piccolloImg from "./assets/home/desktop/image-piccollo.png";
@@ -25,6 +27,16 @@ export const navLinks = [
   {
     text: "Create your plan",
     path: "/plan",
+  },
+];
+
+export const aboutUsHero = [
+  {
+    imageD: PagesHeroBgD,
+    imageT: PagesHeroBgT,
+    imageM: PagesHeroBgM,
+    title: "About us",
+    desc: "Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.",
   },
 ];
 

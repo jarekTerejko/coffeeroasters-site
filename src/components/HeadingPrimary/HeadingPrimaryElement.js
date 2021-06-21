@@ -7,6 +7,8 @@ export const HeadingPrimary = styled.h1`
   max-width: 50rem;
   margin-bottom: 3rem;
   font-weight: var(--weight-bold);
+  text-transform: ${(props) => (props.heroPagesHeading ? "capitalize" : "")};
+  font-size: ${(props) => (props.heroPagesHeading ? "4rem" : "")};
 
   @media screen and (max-width: 768px) {
     font-size: 4rem;
