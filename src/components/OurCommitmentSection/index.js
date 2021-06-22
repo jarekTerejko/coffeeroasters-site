@@ -11,8 +11,7 @@ import {
 import BaristaD from "../../assets/about/desktop/image-commitment.jpg";
 import BaristaT from "../../assets/about/tablet/image-commitment.jpg";
 import BaristaM from "../../assets/about/mobile/image-commitment.jpg";
-import { ImageEl } from "../Image/ImageElement";
-import {HeadingSecondary} from '../HeadingSecondary/HeadingSecondaryElement'
+import { HeadingSecondary } from "../HeadingSecondary/HeadingSecondaryElement";
 import { DescriptionText } from "../DescriptionText/DescriptionTextElement";
 const OurCommitment = () => {
   return (
@@ -23,11 +22,10 @@ const OurCommitment = () => {
             <OurCommitmentImgD src={BaristaD} />
             <OurCommitmentImgT src={BaristaT} />
             <OurCommitmentImgM src={BaristaM} />
-            {/* <ImageEl src={Barista} style={{borderRadius: "1rem"}} /> */}
           </OurCommitmentImgWrapper>
           <OurCommitmentTextWrapper>
             <HeadingSecondary>Our commitment</HeadingSecondary>
-            <DescriptionText>
+            <DescriptionText ourCommitmentDescription>
               We’re built on a simple mission and a commitment to doing good
               along the way. We want to make it easy for you to discover and
               brew the world’s best coffee at home. It all starts at the source.

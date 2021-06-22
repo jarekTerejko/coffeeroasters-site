@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const OurCommitmentWrapper = styled.section`
   margin-bottom: 25rem;
+
+  @media screen and (max-width: 610px) {
+    margin-bottom: 15rem;
+  }
 `;
 
 export const OurCommitmentContent = styled.div`
@@ -35,6 +39,7 @@ export const OurCommitmentTextWrapper = styled.div`
 
   @media screen and (max-width: 610px) {
     text-align: center;
+    align-items: center;
   }
 `;
 
@@ -53,7 +58,7 @@ export const OurCommitmentImgT = styled.img`
   @media screen and (max-width: 860px) {
     display: block;
   }
-  
+
   @media screen and (max-width: 610px) {
     display: none;
   }
