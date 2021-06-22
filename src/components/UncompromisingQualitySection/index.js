@@ -10,7 +10,7 @@ import {
   UncompromisingQualityInnerWrapper,
   UncompromisingQualityTextWrapper,
   UncompromisingQualityWrapper,
-} from "./UncomprosmisingQualityElements";
+} from "./UncompromisingQualityElements";
 import { ContainerElement } from "../Container/ContainerElement";
 import { HeadingSecondary } from "../HeadingSecondary/HeadingSecondaryElement";
 import { DescriptionText } from "../DescriptionText/DescriptionTextElement";

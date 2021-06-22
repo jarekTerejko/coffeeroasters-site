@@ -1,6 +1,6 @@
 import HeroPages from "../components/HeroPages"
 import OurCommitment from "../components/OurCommitmentSection"
-import UncompromisingQuality from "../components/UncomprosmisingQualitySection"
+import UncompromisingQuality from "../components/UncompromisingQualitySection"
 
 const AboutUs = () => {
     return ( <>
