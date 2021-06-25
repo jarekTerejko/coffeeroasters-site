@@ -13,6 +13,7 @@ export const DescriptionText = styled.p`
   margin-bottom: 5rem;
   margin-bottom: ${(props) => (props.whyChooseUsCard ? "0" : "")};
   margin-bottom: ${(props) => (props.howItWorksColDescription ? "6rem" : "")};
+  margin-bottom: ${(props) => (props.ourHeadquarters ? ".5rem" : "")};
 
   @media screen and (max-width: 700px) {
     margin-left: ${(props) => (props.howItWorksColDescription ? "auto" : "")};
