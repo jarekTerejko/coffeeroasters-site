@@ -3,22 +3,20 @@ import { HeroPagesInnerWrapper, HeroPagesWrapper } from "./HeroPagesElements";
 import { HeadingPrimary } from "../HeadingPrimary/HeadingPrimaryElement";
 import { DescriptionText } from "../DescriptionText/DescriptionTextElement";
 
-import { aboutUsHero } from "../../data";
-
-const HeroPages = () => {
+const HeroPages = ({ data, heroAboutUsHeading }) => {
   return (
     <HeroPagesWrapper>
       <ContainerElement wider>
         <HeroPagesInnerWrapper
-          HeroBgD={aboutUsHero[0].imageD}
-          HeroBgT={aboutUsHero[0].imageT}
-          HeroBgM={aboutUsHero[0].imageM}
+          HeroBgD={data[0].imageD}
+          HeroBgT={data[0].imageT}
+          HeroBgM={data[0].imageM}
         >
           <ContainerElement>
-            <HeadingPrimary heroPagesHeading>
-              {aboutUsHero[0].title}
+            <HeadingPrimary heroAboutUsHeading={heroAboutUsHeading}>
+              {data[0].title}
             </HeadingPrimary>
-            <DescriptionText light>{aboutUsHero[0].desc}</DescriptionText>
+            <DescriptionText light>{data[0].desc}</DescriptionText>
           </ContainerElement>
         </HeroPagesInnerWrapper>
       </ContainerElement>
