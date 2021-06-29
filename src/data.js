@@ -1,9 +1,12 @@
 import HomeHeroBgD from "./assets/home/desktop/image-hero-coffeepress.jpg";
 import HomeHeroBgT from "./assets/home/tablet/image-hero-coffeepress.jpg";
 import HomeHeroBgM from "./assets/home/mobile/image-hero-coffeepress.jpg";
-import PagesHeroBgD from "./assets/about/desktop/image-hero-whitecup.jpg";
-import PagesHeroBgT from "./assets/about/tablet/image-hero-whitecup.jpg";
-import PagesHeroBgM from "./assets/about/mobile/image-hero-whitecup.jpg";
+import AboutUsHeroBgD from "./assets/about/desktop/image-hero-whitecup.jpg";
+import AboutUsHeroBgT from "./assets/about/tablet/image-hero-whitecup.jpg";
+import AboutUsHeroBgM from "./assets/about/mobile/image-hero-whitecup.jpg";
+import CreateYourPlanHeroBgD from "./assets/plan/desktop/image-hero-blackcup.jpg";
+import CreateYourPlanHeroBgT from "./assets/plan/tablet/image-hero-blackcup.jpg";
+import CreateYourPlanHeroBgM from "./assets/plan/mobile/image-hero-blackcup.jpg";
 import granEspressoImg from "./assets/home/desktop/image-gran-espresso.png";
 import planaltoImg from "./assets/home/desktop/image-planalto.png";
 import piccolloImg from "./assets/home/desktop/image-piccollo.png";
@@ -32,11 +35,21 @@ export const navLinks = [
 
 export const aboutUsHero = [
   {
-    imageD: PagesHeroBgD,
-    imageT: PagesHeroBgT,
-    imageM: PagesHeroBgM,
+    imageD: AboutUsHeroBgD,
+    imageT: AboutUsHeroBgT,
+    imageM: AboutUsHeroBgM,
     title: "About us",
     desc: "Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.",
+  },
+];
+
+export const createYourPlanHero = [
+  {
+    imageD: CreateYourPlanHeroBgD,
+    imageT: CreateYourPlanHeroBgT,
+    imageM: CreateYourPlanHeroBgM,
+    title: "Create a plan",
+    desc: "Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.",
   },
 ];
 

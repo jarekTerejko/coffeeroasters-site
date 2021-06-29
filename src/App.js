@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
+import Plan from "./pages/Plan";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,10 @@ const App = () => {
           <Home />
         </Route>
         <Route path="/about-us" exact>
-          <AboutUs/>
+          <AboutUs />
+        </Route>
+        <Route path="/create-your-plan" exact>
+          <Plan />
         </Route>
       </Switch>
       <Footer />
