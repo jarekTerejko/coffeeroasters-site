@@ -11,6 +11,7 @@ export const ButtonPrimaryLinkR = styled(Link)`
   border-radius: 0.5rem;
   font-size: 1.8rem;
   transition: background-color var(--transition);
+  display: ${(props) => (props.$invisible ? "none" : "")};
 
   &:hover {
     background: var(--btnHover);

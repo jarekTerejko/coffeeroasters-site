@@ -10,4 +10,5 @@ export const HeadingSmall = styled.h3`
   margin-bottom: ${(props) => (props.ourHeadquarters ? "2rem" : "")};
   font-size: 2.4rem;
   color: ${(props) => (props.howItWorksHeading ? "var(--grey)" : "")};
+  display: ${(props) => (props.invisible ? "none" : "")};
 `;

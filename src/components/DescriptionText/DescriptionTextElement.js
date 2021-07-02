@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const DescriptionText = styled.p`
   color: ${(props) => (props.light ? "var(--lightCream)" : "")};
+  color: ${(props) => (props.lightColor ? "var(--lightCream)" : "")};
   max-width: 40rem;
   max-width: ${(props) => (props.whyChooseUs ? "55rem" : "")};
   max-width: ${(props) => (props.howItWorksColDescription ? "28rem" : "")};

@@ -4,6 +4,7 @@ export const HeadingSecondary = styled.h2`
   font-size: 3.4rem;
   font-family: var(--serif);
   color: ${(props) => (props.light ? "var(--lightCream)" : "")};
+  color: ${(props) => (props.lightColor ? "var(--lightCream)" : "")};
   font-weight: var(--weight-bold);
   max-width: ${(props) => (props.howItWorksColHeading ? "22rem" : "")};
   margin-bottom: 3rem;
