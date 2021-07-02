@@ -8,6 +8,13 @@ export const HowItWorksWrapper = styled.section`
   }
 `;
 
+export const HowItWorksInnerWrapper = styled.div`
+  background: ${(props) => (props.darkBackground ? "var(--darkGreyBlue)" : "")};
+  padding-top: ${(props) => (props.darkBackground ? "12rem" : "")};
+  border-radius: 1rem;
+  padding-bottom: 4rem;
+`;
+
 export const HowItWorksCols = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -32,7 +39,8 @@ export const HowItWorksCol = styled.div`
     height: 30px;
     border-radius: 50%;
     border: solid 2px var(--darkCyan);
-    background: var(--lightCream);
+    background: ${(props) =>
+      props.darkBackground ? "var(--darkGreyBlue)" : "var(--lightCream)"};
 
     @media screen and (max-width: 700px) {
       display: none;
