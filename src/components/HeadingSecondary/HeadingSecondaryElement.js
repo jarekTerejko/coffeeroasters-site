@@ -9,6 +9,7 @@ export const HeadingSecondary = styled.h2`
   max-width: ${(props) => (props.howItWorksColHeading ? "22rem" : "")};
   margin-bottom: 3rem;
   margin-bottom: ${(props) => (props.howItWorksColHeading ? "4.5rem" : "")};
+  margin-bottom: ${(props) => (props.modalHeading ? "0" : "")};
 
   @media screen and (max-width: 700px) {
     max-width: ${(props) => (props.howItWorksColHeading ? "100%" : "")};

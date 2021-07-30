@@ -42,7 +42,7 @@ export const HowItWorksCol = styled.div`
     background: ${(props) =>
       props.darkBackground ? "var(--darkGreyBlue)" : "var(--lightCream)"};
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 739px) {
       display: none;
     }
   }
@@ -56,7 +56,7 @@ export const HowItWorksCol = styled.div`
     height: 2px;
     background: var(--paleOrange);
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 739px) {
       display: none;
     }
   }
