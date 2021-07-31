@@ -10,7 +10,6 @@ export const HeadingSmall = styled.h3`
   margin-bottom: ${(props) => (props.ourHeadquarters ? "2rem" : "")};
   margin-bottom: ${(props) => (props.modal ? "2rem" : "")};
   font-size: 2.4rem;
-  color: ${(props) => (props.howItWorksHeading ? "var(--grey)" : "")};
   display: ${(props) => (props.invisible ? "none" : "")};
 
   @media screen and (max-width: 375px) {
