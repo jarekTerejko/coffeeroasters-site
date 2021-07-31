@@ -19,9 +19,9 @@ const OurCommitment = () => {
       <ContainerElement>
         <OurCommitmentContent>
           <OurCommitmentImgWrapper>
-            <OurCommitmentImgD src={BaristaD} />
-            <OurCommitmentImgT src={BaristaT} />
-            <OurCommitmentImgM src={BaristaM} />
+            <OurCommitmentImgD src={BaristaD} alt="Barista" />
+            <OurCommitmentImgT src={BaristaT} alt="Barista" />
+            <OurCommitmentImgM src={BaristaM} alt="Barista" />
           </OurCommitmentImgWrapper>
           <OurCommitmentTextWrapper>
             <HeadingSecondary>Our commitment</HeadingSecondary>

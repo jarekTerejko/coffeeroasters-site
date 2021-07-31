@@ -36,9 +36,9 @@ const UncompromisingQuality = () => {
                 </DescriptionText>
               </UncompromisingQualityTextWrapper>
               <UncompromisingQualityImgWrapper>
-                <UncompromisingQualityImgD src={CoffeeCupD} />
-                <UncompromisingQualityImgT src={CoffeeCupT} />
-                <UncompromisingQualityImgM src={CoffeeCupM} />
+                <UncompromisingQualityImgD src={CoffeeCupD} alt="Coffee cup" />
+                <UncompromisingQualityImgT src={CoffeeCupT} alt="Coffee cup" />
+                <UncompromisingQualityImgM src={CoffeeCupM} alt="Coffee cup" />
               </UncompromisingQualityImgWrapper>
             </UncompromisingQualityContent>
           </ContainerElement>

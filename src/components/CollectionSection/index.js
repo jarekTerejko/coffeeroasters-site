@@ -22,7 +22,7 @@ const CollectionSection = () => {
             return (
               <CollectionCard key={i}>
                 <CollectionCardImgWrapper>
-                  <ImageEl src={item.image} />
+                  <ImageEl src={item.image} alt={`${item.heading} bag`} />
                 </CollectionCardImgWrapper>
                 <CollectionCardTextWrapper>
                   <HeadingSmall collectionSection>{item.heading}</HeadingSmall>
