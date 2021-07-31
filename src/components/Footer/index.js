@@ -48,17 +48,17 @@ const Footer = () => {
                 </FooterNavItems>
                 <FooterNavItems socialNav>
                   <FooterNavItem>
-                    <FooterNavSocialLink>
+                    <FooterNavSocialLink href="#">
                       <ImageEl src={IconFacebook} />
                     </FooterNavSocialLink>
                   </FooterNavItem>
                   <FooterNavItem>
-                    <FooterNavSocialLink>
+                    <FooterNavSocialLink href="#">
                       <ImageEl src={IconTwitter} />
                     </FooterNavSocialLink>
                   </FooterNavItem>
                   <FooterNavItem>
-                    <FooterNavSocialLink>
+                    <FooterNavSocialLink href="#">
                       <ImageEl src={IconInstagram} />
                     </FooterNavSocialLink>
                   </FooterNavItem>
