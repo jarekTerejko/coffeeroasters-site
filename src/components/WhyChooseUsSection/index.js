@@ -29,7 +29,7 @@ const WhyChooseUsSection = () => {
               return (
                 <WhyChooseUsCard key={i}>
                   <WhyChooseUsCardImgWrapper>
-                    <ImageEl src={card.image} />
+                    <ImageEl src={card.image} alt="" />
                   </WhyChooseUsCardImgWrapper>
                   <WhyChooseUsCardTextWrapper>
                     <HeadingSmall whyChooseUsCard light>
