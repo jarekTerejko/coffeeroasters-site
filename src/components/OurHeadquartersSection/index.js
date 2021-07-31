@@ -3,8 +3,8 @@ import { ContainerElement } from "../Container/ContainerElement";
 import { DescriptionText } from "../DescriptionText/DescriptionTextElement";
 import { HeadingSmall } from "../HeadingSmall/HeadingSmall";
 import { HowItWorksCols } from "../HowItWorksSection/HowItWorksElements";
+import { ImageEl } from "../Image/ImageElement";
 import {
-  OurHeadquartersImg,
   OurHeadquartersCol,
   OurHeadquartersWrapper,
 } from "./OurHeadquartersElements";
@@ -18,8 +18,7 @@ const OurHeadquarters = () => {
           {headquarters.map((col, i) => {
             return (
               <OurHeadquartersCol key={i}>
-                {/* <ImageEl src={col.icon} /> */}
-                <OurHeadquartersImg src={col.icon} />
+                <ImageEl src={col.icon} ourHeadquarters alt={col.location} />
                 <HeadingSmall ourHeadquarters>{col.location}</HeadingSmall>
                 {Object.keys(col.information).map((k, i) => {
                   return (
