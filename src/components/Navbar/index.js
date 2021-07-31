@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <NavbarWrapper $scrolledNav={scrolledNav}>
-      <ContainerElement>
+      <ContainerElement wider>
         <NavbarInnerWrapper $scrolledNav={scrolledNav}>
           <NavbarSiteLinkR to="/" $isOpen={isOpen} onClick={closeMenu}>
             <ImageEl className="logo" src={Logo} alt="Logo" />
