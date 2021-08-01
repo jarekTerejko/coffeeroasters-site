@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const OurHeadquartersWrapper = styled.section`
   margin-bottom: 16rem;
+
+  @media screen and (max-width: 700px) {
+    text-align: center;
+  }
 `;
 
 export const OurHeadquartersCol = styled.div`
