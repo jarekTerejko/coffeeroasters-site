@@ -55,6 +55,7 @@ export const CreatePlanQuestionText = styled.span`
 
   @media screen and (max-width: 600px) {
     font-size: 2.4rem;
+    margin-right: 1.6rem;
   }
 `;
 
